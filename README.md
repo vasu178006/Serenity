@@ -51,17 +51,29 @@ A comprehensive, privacy-first wellness web application designed to help you fin
 2. **Backend Setup**
    ```bash
    cd backend
+   For Windows PowerShell users only, run this first:
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   
+   source venv/bin/activate  # On Windows:.\venv\Scripts\Activate
+      
    pip install -r requirements.txt
+
+   RUN:
+   uvicorn server:app --reload --host 0.0.0.0 --port 8000
+   OR
+   uvicorn server:app --reload
    ```
 
 3. **Frontend Setup**
    ```bash
    cd frontend
-   yarn install
-   # or
-   npm install
+   npm install --legacy-peer-deps
+   #or
+   npm install --force
+   RUN:
+   npm start
+   
    ```
 
 4. **Environment Configuration**
@@ -341,5 +353,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Made with ❤️ for your mental wellness journey**
+BY MOULIK GUPTA,VASU SHARMA,DAKSH JAIN
 
 *Serenity Space - Where technology meets tranquility*
