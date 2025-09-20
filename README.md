@@ -1,4 +1,4 @@
-# 🧘 Serenity Space - Your Personal Wellness Companion
+#  Serenity Space - Your Personal Wellness Companion
 
 A comprehensive, privacy-first wellness web application designed to help you find focus, manage stress, and cultivate mindfulness through immersive experiences and evidence-based therapeutic tools.
 
@@ -7,18 +7,18 @@ A comprehensive, privacy-first wellness web application designed to help you fin
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110.1-green)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-blue)
 
-## ✨ Features
+##  Features
 
-### 🎯 Core Wellness Modules
+### Core Wellness Modules
 
-- **🧘 Zen Mode** - Focused breathing exercises with guided meditation sessions
+- ** Zen Mode** - Focused breathing exercises with guided meditation sessions
 - **🎵 Relaxing Music** - 6 ambient soundscapes with real audio playback
 - **🎨 Visual Effects** - 6 calming visual experiences for relaxation
 - **💭 Cognitive Reframer** - AI-powered CBT tool for thought transformation
 - **📚 Wellness Articles** - Curated content on mental health and digital wellbeing
 - **📊 Personal Analytics** - Track your wellness journey and progress
 
-### 🎨 Design & Experience
+###  Design & Experience
 
 - **Glassmorphism UI** - Modern, elegant design with backdrop blur effects
 - **Mood-Based Theming** - Personalized color schemes based on your emotional state
@@ -26,13 +26,13 @@ A comprehensive, privacy-first wellness web application designed to help you fin
 - **Responsive Design** - Optimized for desktop and mobile experiences
 - **Privacy-First** - All data stored locally with optional cloud sync
 
-### 🤖 AI-Powered Features
+###  AI-Powered Features
 
 - **Dynamic CBT Questions** - Personalized therapeutic questions using Google Gemini Pro
 - **Intelligent Fallbacks** - Graceful degradation when AI services are unavailable
 - **Contextual Guidance** - Thought patterns analyzed for targeted interventions
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -109,7 +109,7 @@ A comprehensive, privacy-first wellness web application designed to help you fin
    - Backend API: http://localhost:8000/api
    - API Documentation: http://localhost:8000/docs
 
-## 🏗️ Architecture
+## 🏗 Architecture
 
 ### Backend (FastAPI)
 - **Framework**: FastAPI with async/await support
@@ -145,7 +145,7 @@ frontend/src/
 └── ui/                      # Reusable UI components
 ```
 
-## 🎯 Usage Guide
+##  Usage Guide
 
 ### First Time Setup
 1. **Landing Experience** - Beautiful animated introduction
@@ -161,7 +161,7 @@ frontend/src/
 
 ### Key Features Explained
 
-#### 🧘 Zen Mode
+####  Zen Mode
 - **Box Breathing** - 4-4-4-4 pattern for anxiety relief
 - **4-7-8 Technique** - Calming breathwork for sleep
 - **Equal Breathing** - Balanced inhale/exhale for focus
@@ -185,7 +185,7 @@ frontend/src/
 - **Volume Control** - Adjustable audio levels
 - **Progress Tracking** - Visual progress bars
 
-#### 🎨 Visual Effects
+#### Visual Effects
 - **6 Calming Experiences**:
   - Floating Lotus - Gentle floating petals
   - Stardust Cascade - Peaceful falling particles
@@ -221,7 +221,7 @@ frontend/src/
 - `POST /api/analytics` - Track usage
 - `GET /api/analytics/summary` - Usage statistics
 
-## 🎨 Theming System
+##  Theming System
 
 ### Mood-Based Colors
 The app automatically generates color schemes based on your mood:
@@ -239,7 +239,7 @@ The app automatically generates color schemes based on your mood:
 - Smooth transitions
 - Modern aesthetic
 
-## 🔒 Privacy & Security
+##  Privacy & Security
 
 - **Local Storage First** - All data stored in browser by default
 - **Optional Cloud Sync** - MongoDB backup when enabled
@@ -247,7 +247,7 @@ The app automatically generates color schemes based on your mood:
 - **Encrypted Sessions** - Secure JWT tokens
 - **GDPR Compliant** - Full data export and deletion
 
-## 🧪 Testing
+##  Testing
 
 ### Backend Testing
 ```bash
@@ -273,7 +273,7 @@ npm test
 - [ ] Data persistence
 - [ ] Responsive design
 
-## 🚀 Deployment
+##  Deployment
 
 ### Backend (Railway/Heroku)
 1. Connect your GitHub repository
@@ -298,7 +298,7 @@ GEMINI_API_KEY=your_gemini_api_key
 REACT_APP_BACKEND_URL=https://your-api-domain.com
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/amazing-feature`
@@ -313,11 +313,11 @@ REACT_APP_BACKEND_URL=https://your-api-domain.com
 - Update documentation
 - Follow the glassmorphism design system
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Google Gemini Pro** - AI-powered therapeutic question generation
 - **Framer Motion** - Smooth animations and transitions
@@ -326,14 +326,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **MongoDB** - Flexible document database
 - **FastAPI** - Modern Python web framework
 
-## 📞 Support
+##  Support
 
 - **Documentation**: [Wiki](https://github.com/yourusername/serenity-space/wiki)
 - **Issues**: [GitHub Issues](https://github.com/yourusername/serenity-space/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/serenity-space/discussions)
 - **Email**: support@serenityspace.app
 
-## 🌟 Roadmap
+##  Roadmap
 
 ### Version 2.0
 - [ ] Mobile app (React Native)
